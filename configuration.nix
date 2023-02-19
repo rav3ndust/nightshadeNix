@@ -1,3 +1,7 @@
+/* nightshadeNix config
+  packages we use and setups for:
+   * - plasma
+   * - wired (i3-wm custom setup */ 
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
@@ -21,10 +25,10 @@
   };
 
   # Enable swap on luks
-  boot.initrd.luks.devices."luks-ffb2bb07-463b-4ae4-8028-afe2c6328a24".device = "/dev/disk/by-uuid/ffb2bb07-463b-4ae4-8028-afe2c6328a24";
-  boot.initrd.luks.devices."luks-ffb2bb07-463b-4ae4-8028-afe2c6328a24".keyFile = "/crypto_keyfile.bin";
+  boot.initrd.luks.devices."luks-e11bee2c-3330-4e1c-ab01-1811686d5830".device = "/dev/disk/by-uuid/e11bee2c-3330-4e1c-ab01-1811686d5830";
+  boot.initrd.luks.devices."luks-e11bee2c-3330-4e1c-ab01-1811686d5830".keyFile = "/crypto_keyfile.bin";
 
-  networking.hostName = "nixCore"; # Define your hostname.
+  networking.hostName = "nix-core"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -38,15 +42,35 @@
   time.timeZone = "America/Chicago";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.utf8";
+  i18n.defaultLocale = "en_US.UTF-8";
+
+  i18n.extraLocaleSettings = {
+    LC_ADDRESS = "en_US.UTF-8";
+    LC_IDENTIFICATION = "en_US.UTF-8";
+    LC_MEASUREMENT = "en_US.UTF-8";
+    LC_MONETARY = "en_US.UTF-8";
+    LC_NAME = "en_US.UTF-8";
+    LC_NUMERIC = "en_US.UTF-8";
+    LC_PAPER = "en_US.UTF-8";
+    LC_TELEPHONE = "en_US.UTF-8";
+    LC_TIME = "en_US.UTF-8";
+  };
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  # Enable the Cinnamon Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.cinnamon.enable = true;
+  # Enable the KDE Plasma Desktop Environment.
+  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.displayManager.defaultSession = "none+i3";
 
+  #Enable the i3 window manager.
+  services.xserver.windowManager.i3 = {
+    enable = true;
+    package = pkgs.i3;
+    extraPackages = with pkgs; [i3status i3lock-fancy rofi dmenu nitrogen nemo alacritty vim conky dunst xscreensaver arandr];
+  };
+  
   # Configure keymap in X11
   services.xserver = {
     layout = "us";
@@ -74,7 +98,7 @@
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
+  services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.rav3ndust = {
@@ -83,7 +107,17 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-    #  thunderbird
+      kate
+      thunderbird
+      chromium
+      element-desktop
+      brave
+      tdesktop
+      vim
+      git
+      sublime4
+      sublime-merge
+      notify-desktop
     ];
   };
 
@@ -122,6 +156,7 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "22.05"; # Did you read the comment?
+  system.stateVersion = "22.11"; # Did you read the comment?
 
 }
+
