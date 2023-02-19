@@ -188,17 +188,18 @@
      firehol
      killall
      xorg.xkill
-     ###########################
-     # GNOME extensions.
-     # Leave commented out when not in use.
-     ###########################
-     gnomeExtensions.dash-to-dock
-     gnomeExtensions.dash-to-panel
-     gnomeExtensions.burn-my-windows
-     gnomeExtensions.blur-my-shell
-     gnomeExtensions.appindicator
+     #########################################
+     # GNOME extensions.                     #
+     # Leave commented out when not in use.  #
+     #########################################
+     gnomeExtensions.dash-to-dock           # dock outside of Activities view.
+     gnomeExtensions.dash-to-panel          # windows-style panel
+     gnomeExtensions.burn-my-windows        # aesthetics for windows opening/closing
+     gnomeExtensions.blur-my-shell          # GNOME Shell blurring
+     gnomeExtensions.appindicator           # AppIndicators on the GNOME panel
+     gnomeExtensions.arcmenu                # windows-style "start" menu for apps
      # include GNOME Tweak Tool.
-     gnome.gnome-tweaks
+     gnome.gnome-tweaks                     # Tweak various GNOME Shell components.
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
