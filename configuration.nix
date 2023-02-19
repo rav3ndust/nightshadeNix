@@ -83,6 +83,8 @@
       arandr
       networkmanagerapplet
       volumeicon
+      polybar
+      flameshot
       ];
   };
   
