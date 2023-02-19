@@ -60,13 +60,22 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-
+  services.xserver.displayManager.defaultSession = "none+i3";
+  ##############################################################
   # Enable the KDE Plasma Desktop Environment.
   # Plasma and i3 can be selected from the SDDM login screen.
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
-  services.xserver.displayManager.defaultSession = "none+i3";
-  
+  # Uncomment the lines below to enable Plasma and SDDM.
+  ##############################################################
+  #services.xserver.displayManager.sddm.enable = true;
+  #services.xserver.desktopManager.plasma5.enable = true;
+  ##############################################################
+  # Enable the GNOME Desktop Environment.
+  # GNOME and i3 can be selected from the GDM login screen.
+  # Uncomment the lines below to enable GNOME and GDM.
+  ##############################################################
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
+  ##############################################################
   # Enable the i3 window manager.
   services.xserver.windowManager.i3 = {
     enable = true;
@@ -88,11 +97,11 @@
       dunst 
       xscreensaver 
       arandr
-      nm-applet
+      #nm-applet
       volumeicon
       polybar
       flameshot
-      thunar
+      xfce.thunar
       ];
   };
   
@@ -141,7 +150,7 @@
       sublime4
       sublime-merge
       flameshot
-      tor-browser-bundle
+      tor-browser-bundle-bin
       electrum
       gpa
       agenda
@@ -179,6 +188,17 @@
      firehol
      killall
      xorg.xkill
+     ###########################
+     # GNOME extensions.
+     # Leave commented out when not in use.
+     ###########################
+     gnomeExtensions.dash-to-dock
+     gnomeExtensions.dash-to-panel
+     gnomeExtensions.burn-my-windows
+     gnomeExtensions.blur-my-shell
+     gnomeExtensions.appindicator
+     # include GNOME Tweak Tool.
+     gnome.gnome-tweaks
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -209,4 +229,3 @@
   system.stateVersion = "22.11"; # Did you read the comment?
 
 }
-
