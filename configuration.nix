@@ -68,7 +68,21 @@
   services.xserver.windowManager.i3 = {
     enable = true;
     package = pkgs.i3;
-    extraPackages = with pkgs; [i3status i3lock-fancy rofi dmenu nitrogen nemo alacritty vim conky dunst xscreensaver arandr];
+    extraPackages = with pkgs; [
+      i3status 
+      i3lock-fancy 
+      rofi 
+      dmenu 
+      nitrogen 
+      nemo 
+      alacritty 
+      conky
+      dunst 
+      xscreensaver 
+      arandr
+      networkmanagerapplet
+      volumeicon
+      ];
   };
   
   # Configure keymap in X11
@@ -108,16 +122,29 @@
     packages = with pkgs; [
       firefox
       kate
+      nemo
       thunderbird
       chromium
       element-desktop
       brave
       tdesktop
-      vim
-      git
       sublime4
       sublime-merge
-      notify-desktop
+      wget
+      flameshot
+      tor-browser-bundle
+      electrum
+      gpa
+      agenda
+      obs-studio
+      skypeforlinux
+      google-chrome
+      markets
+      sunvox
+      gnome.gnome-disk-utility
+      ark
+      transmission
+      wireshark
     ];
   };
 
@@ -126,9 +153,19 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+  # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
+     vim 
+     wget
+     zip
+     unzip
+     notify-desktop
+     git
+     cmus
+     htop
+     neofetch
+     cmatrix
+     firehol
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
