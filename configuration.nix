@@ -62,11 +62,12 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
+  # Plasma and i3 can be selected from the SDDM login screen.
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.displayManager.defaultSession = "none+i3";
-
-  #Enable the i3 window manager.
+  
+  # Enable the i3 window manager.
   services.xserver.windowManager.i3 = {
     enable = true;
     package = pkgs.i3;
