@@ -1,7 +1,8 @@
 /* nightshadeNix config
+           - by rav3ndust
   packages we use and setups for:
-   * - plasma
-   * - wired (i3-wm custom setup */ 
+    - plasma
+    - wired (i3-wm custom setup) */ 
 #####################################################################
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
@@ -75,16 +76,16 @@
       rofi 
       dmenu 
       nitrogen 
-      nemo 
       alacritty 
       conky
       dunst 
       xscreensaver 
       arandr
-      networkmanagerapplet
+      nm-applet
       volumeicon
       polybar
       flameshot
+      thunar
       ];
   };
   
@@ -125,7 +126,6 @@
     packages = with pkgs; [
       firefox
       kate
-      nemo
       thunderbird
       chromium
       element-desktop
@@ -133,7 +133,6 @@
       tdesktop
       sublime4
       sublime-merge
-      wget
       flameshot
       tor-browser-bundle
       electrum
@@ -148,7 +147,6 @@
       ark
       transmission
       wireshark
-      github-desktop
     ];
   };
 
@@ -166,10 +164,14 @@
      notify-desktop
      git
      cmus
+     tor
+     torsocks
      htop
      neofetch
      cmatrix
      firehol
+     killall
+     xorg.xkill
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
