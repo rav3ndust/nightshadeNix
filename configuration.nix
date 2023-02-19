@@ -71,6 +71,12 @@
     enable = true;
     package = pkgs.i3;
     extraPackages = with pkgs; [
+    #######################################################
+    */ A few config file notes: 
+           - i3 config is at ~/.config/i3/config
+           - polybar config is at ~/.config/polybar/config
+           - dunst config is at ~/.config/dunst/dunstrc */
+    #######################################################
       i3status 
       i3lock-fancy 
       rofi 
