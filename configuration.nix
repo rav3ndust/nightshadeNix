@@ -146,6 +146,7 @@
       ark
       transmission
       wireshark
+      github-desktop
     ];
   };
 
