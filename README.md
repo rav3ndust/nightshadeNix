@@ -43,7 +43,7 @@ Conversely, you could also install them the `nix-env` way. For example, if you w
 ![image](https://user-images.githubusercontent.com/35274771/220030006-b0999e0c-ded6-4def-9ed1-489c1d04707c.png)
 ###### An elegant, minimal tiling window manager for the power-user.
 
-For those who would like a more minimal and automateed environment for their computing, there is **i3**! It automatically tiles your windows for you, so you don't have to worry about window management - just handling your work! 
+For those who would like a more minimal and automated environment for their computing, there is **i3**! It automatically tiles your windows for you, so you don't have to worry about window management - just handling your work! 
 
 It runs smooth and stable, and uses very little of your precious system resources. It looks sharp and it's packed with some of these features:
 
