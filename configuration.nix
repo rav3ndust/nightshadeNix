@@ -3,11 +3,21 @@
   packages we use and setups for:
     - plasma
     - wired (i3-wm custom setup) */ 
-#####################################################################
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
-#####################################################################
+#################################################################################
+# Edit this configuration file to define what should be installed on            #
+# your system.  Help is available in the configuration.nix(5) man page          #
+# and in the NixOS manual (accessible by running ‘nixos-help’).                 #
+#################################################################################
+#                - - - DID YOU KNOW? - - -                                      #
+#                                                                               #
+# * When you're done editing this file, make sure to run:                       #
+# `nixos-rebuild switch` to create a new generation with this file in effect!   #
+#                                                                               #
+# * You can also name generations before creating them. Use this command        #
+# (as an example) when creating a new generation:                               #
+#                                                                               #
+#     `sudo NIXOS_LABEL="generation1-$(date)" nixos-rebuild switch`             #
+##################################################################################
 { config, pkgs, ... }:
 
 {
@@ -201,6 +211,13 @@
      gnomeExtensions.arcmenu                # windows-style "start" menu for apps
      # include GNOME Tweak Tool.
      gnome.gnome-tweaks                     # Tweak various GNOME Shell components.
+     #########################################
+     # Vim plugins.                          #
+     # Used for language supports in vim.    #
+     #########################################
+     vimPlugins.vim-nix                     # support for Nix language
+     vimPlugins.vim-solidity                # support for Solidity language
+     vimPlugins.vim-elixir                  # support for Elixir language
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -212,6 +229,7 @@
   # };
   #########################################
   # List services that you want to enable:
+  # Uncomment services to enable them.
   #########################################
   # Enable Flatpak:
   # services.flatpak.enable = true;
