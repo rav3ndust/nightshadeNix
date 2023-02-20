@@ -214,7 +214,7 @@
   # List services that you want to enable:
   #########################################
   # Enable Flatpak:
-  services.flatpak.enable = true;
+  # services.flatpak.enable = true;
   #########################################
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
