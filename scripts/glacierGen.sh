@@ -4,7 +4,7 @@ set -euo pipefail
 ns="nightshade"
 tag="gen-21.3"
 gen=23
-label="$gen - $ns $tag - $(date)"
+label="$gen - $ns $tag - $(date -I)"
 ####################
 # - functions
 ####################
@@ -19,9 +19,9 @@ create_generation () {
 	# We're in nightshade23.
 	echo "nightshadeNix generation starting..."
 	sleep 1
-	echo "Preparation: $NIXOS_LABEL"
+	echo "Preparation: $label"
 	sleep 1
-	sudo NIXOS_LABEL=$label nixos-rebuild switch
+	sudo NIXOS_LABEL="$label" nixos-rebuild switch
 	sleep 1
 	echo "New nightshadeNix generation created. You'll need to restart your machine for changes to take effect."
 	sleep 1
