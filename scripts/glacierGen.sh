@@ -21,7 +21,7 @@ create_generation () {
 	sleep 1
 	echo "Preparation: $label"
 	sleep 1
-	sudo NIXOS_LABEL="$label" nixos-rebuild switch
+	sudo $(NIXOS_LABEL="$label") nixos-rebuild switch
 	sleep 1
 	echo "New nightshadeNix generation created. You'll need to restart your machine for changes to take effect."
 	sleep 1
