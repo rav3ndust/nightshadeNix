@@ -1,8 +1,9 @@
 /* nightshadeNix config
            - by rav3ndust
   packages we use and setups for:
-    - plasma
-    - wired (i3-wm custom setup) */ 
+    - cinnamon
+    - gnome
+    - i3 window manager */ 
 #################################################################################
 # Edit this configuration file to define what should be installed on            #
 # your system.  Help is available in the configuration.nix(5) man page          #
@@ -204,14 +205,14 @@
      # GNOME extensions.                     #
      # Leave commented out when not in use.  #
      #########################################
-     gnomeExtensions.dash-to-dock           # dock outside of Activities view.
-     gnomeExtensions.dash-to-panel          # windows-style panel
-     gnomeExtensions.burn-my-windows        # aesthetics for windows opening/closing
-     gnomeExtensions.blur-my-shell          # GNOME Shell blurring
-     gnomeExtensions.appindicator           # AppIndicators on the GNOME panel
-     gnomeExtensions.arcmenu                # windows-style "start" menu for apps
+     #gnomeExtensions.dash-to-dock           # dock outside of Activities view.
+     #gnomeExtensions.dash-to-panel          # windows-style panel
+     #gnomeExtensions.burn-my-windows        # aesthetics for windows opening/closing
+     #gnomeExtensions.blur-my-shell          # GNOME Shell blurring
+     #gnomeExtensions.appindicator           # AppIndicators on the GNOME panel
+     #gnomeExtensions.arcmenu                # windows-style "start" menu for apps
      # include GNOME Tweak Tool.
-     gnome.gnome-tweaks                     # Tweak various GNOME Shell components.
+     #gnome.gnome-tweaks                     # Tweak various GNOME Shell components.
      #########################################
      # Vim plugins.                          #
      # Used for language supports in vim.    #
