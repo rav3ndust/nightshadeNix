@@ -1,24 +1,13 @@
 /* nightshadeNix config
            - by rav3ndust
   packages we use and setups for:
-    - cinnamon
-    - gnome
-    - i3 window manager */ 
-#################################################################################
-# Edit this configuration file to define what should be installed on            #
-# your system.  Help is available in the configuration.nix(5) man page          #
-# and in the NixOS manual (accessible by running ‘nixos-help’).                 #
-#################################################################################
-#                - - - DID YOU KNOW? - - -                                      #
-#                                                                               #
-# * When you're done editing this file, make sure to run:                       #
-# `nixos-rebuild switch` to create a new generation with this file in effect!   #
-#                                                                               #
-# * You can also name generations before creating them. Use this command        #
-# (as an example) when creating a new generation:                               #
-#                                                                               #
-#     `sudo NIXOS_LABEL="generation1-$(date)" nixos-rebuild switch`             #
-##################################################################################
+    - plasma
+    - wired (i3-wm custom setup) */ 
+#####################################################################
+# Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
+#####################################################################
 { config, pkgs, ... }:
 
 {
@@ -71,21 +60,21 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-  services.xserver.displayManager.defaultSession = "none+i3";
+  services.xserver.displayManager.defaultSession = "cinnamon";
   ##############################################################
-  # Enable the KDE Plasma Desktop Environment.
-  # Plasma and i3 can be selected from the SDDM login screen.
-  # Uncomment the lines below to enable Plasma and SDDM.
+  # Enable the Cinnamon Desktop Environment.
+  # Cinnamon and i3 can be selected from the login screen.
+  # Uncomment the lines below to enable Cinnamon and lightdm.
   ##############################################################
-  #services.xserver.displayManager.sddm.enable = true;
-  #services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.desktopManager.cinnamon.enable = true;
   ##############################################################
   # Enable the GNOME Desktop Environment.
   # GNOME and i3 can be selected from the GDM login screen.
   # Uncomment the lines below to enable GNOME and GDM.
   ##############################################################
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  #services.xserver.displayManager.gdm.enable = true;
+  #services.xserver.desktopManager.gnome.enable = true;
   ##############################################################
   # Enable the i3 window manager.
   services.xserver.windowManager.i3 = {
@@ -170,11 +159,12 @@
       google-chrome
       markets
       sunvox
+      alacritty
       gnome.gnome-disk-utility
       ark
       transmission
-      mpv
       wireshark
+      rhythmbox
     ];
   };
 
@@ -200,26 +190,16 @@
      firehol
      killall
      xorg.xkill
-     firejail
-     #########################################
-     # GNOME extensions.                     #
-     # Leave commented out when not in use.  #
-     #########################################
-     #gnomeExtensions.dash-to-dock           # dock outside of Activities view.
-     #gnomeExtensions.dash-to-panel          # windows-style panel
-     #gnomeExtensions.burn-my-windows        # aesthetics for windows opening/closing
-     #gnomeExtensions.blur-my-shell          # GNOME Shell blurring
-     #gnomeExtensions.appindicator           # AppIndicators on the GNOME panel
-     #gnomeExtensions.arcmenu                # windows-style "start" menu for apps
+     ###########################
+     # GNOME extensions.
+     # Leave commented out when not in use.
+     ###########################
+     #gnomeExtensions.dash-to-dock
+     #gnomeExtensions.dash-to-panel
+     #gnomeExtensions.burn-my-windows
+     #gnomeExtensions.blur-my-shell
      # include GNOME Tweak Tool.
-     #gnome.gnome-tweaks                     # Tweak various GNOME Shell components.
-     #########################################
-     # Vim plugins.                          #
-     # Used for language supports in vim.    #
-     #########################################
-     vimPlugins.vim-nix                     # support for Nix language
-     vimPlugins.vim-solidity                # support for Solidity language
-     vimPlugins.vim-elixir                  # support for Elixir language
+     #gnome.gnome-tweaks
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -229,13 +209,9 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-  #########################################
+
   # List services that you want to enable:
-  # Uncomment services to enable them.
-  #########################################
-  # Enable Flatpak:
-  # services.flatpak.enable = true;
-  #########################################
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -251,6 +227,6 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "22.11"; # Did you read the comment?
+  system.stateVersion = "unstable"; # Did you read the comment?
 
 }
