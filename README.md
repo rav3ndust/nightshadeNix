@@ -28,3 +28,22 @@ Conversely, you could also install them the `nix-env` way. For example, if you w
 - Burn My Windows: [gnomeExtensions.burn-my-windows](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.burn-my-windows)
 - Dash to Dock: [gnomeExtensions.dash-to-dock](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=dash-to-dock)
 - Dash to Panel: [gnomeExtensions.dash-to-panel](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=dash-to-panel)
+
+## nightshadeNix - i3
+
+![image](https://user-images.githubusercontent.com/35274771/220030006-b0999e0c-ded6-4def-9ed1-489c1d04707c.png)
+###### An elegant, minimal tiling window manager for the power-user.
+
+For those who would like a more minimal and automateed environment for their computing, there is **i3**! It automatically tiles your windows for you, so you don't have to worry about window management - just handling your work! 
+
+It runs smooth and stable, and uses very little of your precious system resources. It looks sharp and it's packed with some of these features:
+
+- Custom status bar with clickable events and appindicator support, using **polybar**.
+- Screenshot handling using **flameshot**.
+- GUI networking with **nm-applet**.
+- Adjust your volume with **volumeicon**, regardless of your audio server.
+- Adjust your wallpaper easily with **nitrogen**.
+- Handle your display arrangement with **arandr** for multiple-display setups.
+- We use **xscreensaver** for screensaving and autolocking.
+- A stylized **dunst** for handling notifications.
+- **Alacritty** set as the default terminal.
