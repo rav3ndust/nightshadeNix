@@ -11,7 +11,7 @@ Here are the main ones I use every single day, and they are setup to be easy to 
 
 ## nightshadeNix - Plasma
 
-![image](https://user-images.githubusercontent.com/35274771/220082036-421e9ad1-358e-4e41-9d5b-1bc970bb8575.png)
+![image](https://user-images.githubusercontent.com/35274771/220084272-f48b0330-9986-4d82-914d-c88eadcdda6e.png)
 ###### A traditional and beautiful workflow that you already know how to use.
 
 Plasma has always been one of, if not my favorite, full desktop environment. It is beautiful, it is modern, it is feature-rich, and it gives you the power to make your desktop your own. 
