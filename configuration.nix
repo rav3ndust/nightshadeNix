@@ -188,6 +188,7 @@
      firehol
      killall
      xorg.xkill
+     firejail
      #########################################
      # GNOME extensions.                     #
      # Leave commented out when not in use.  #
@@ -209,9 +210,12 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-
+  #########################################
   # List services that you want to enable:
-
+  #########################################
+  # Enable Flatpak:
+  services.flatpak.enable = true;
+  #########################################
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
