@@ -1,5 +1,9 @@
-# nixConfig
+# nightshadeNix
 My personal configuration file for my nixOS instances.
+
+Also includes custom config files for other programs and some other scripts that I'm developing as I continue to further my obsession with Nix.
+
+This repo ultimately will recreate my "__NightshadeNix__" setup on every machine it's deployed to. It's mostly here, of course, for my use on my machines first and foremost, but I welcome anyone who has cool ideas to suggest them in an [issue](https://github.com/rav3ndust/nixConfig/issues) or [pull request](https://github.com/rav3ndust/nixConfig/pulls)!
 
 ## The Setup
 
