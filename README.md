@@ -9,7 +9,7 @@ Here are the main ones I use every single day.
 
 ### nightshadeNix - GNOME
 
-![image](https://user-images.githubusercontent.com/35274771/219996154-9c978117-b165-49b5-9755-1eb3b45125c9.png)
+![image](https://user-images.githubusercontent.com/35274771/219997226-98b5ec17-179f-47b6-afb4-7d31ca02ea43.png)
 
 GNOME is quite extensible, despite plenty in the GNU/Linux community saying otherwise. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family.
 
