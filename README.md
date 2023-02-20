@@ -9,14 +9,14 @@ There are a few different environments I am building with the **nightshadeNix** 
 
 Here are the main ones I use every single day, and they are setup to be easy to switch between in the session manager.
 
-## nightshadeNix - Plasma
+## nightshadeNix - Cinnamon
 
-![image](https://user-images.githubusercontent.com/35274771/220084272-f48b0330-9986-4d82-914d-c88eadcdda6e.png)
+![image](https://user-images.githubusercontent.com/35274771/220191163-4a258c93-9c4c-4ead-a624-d4ab275dd3b9.png)
 ###### A traditional and beautiful workflow that you already know how to use.
 
-Plasma has always been one of, if not my favorite, full desktop environment. It is beautiful, it is modern, it is feature-rich, and it gives you the power to make your desktop your own. 
+Cinnamon has always been one of, if not my favorite, full desktop environment. It is beautiful, it is modern, it is feature-rich, and it gives you the power to make your desktop your own, while remaining simple and elegant. 
 
-Theme it up to your heart's content with tons of bells and whistles and further aesthetic goodies, or leave it as-is and get to work. However you choose to use it, Plasma is meant to adapt to you, not the other way around. Due to its traditional workflow, it also has a minimal amount to learn about - you already know how to use it.
+Theme it up to your heart's content with tons of bells and whistles and further aesthetic goodies, or leave it as-is and get to work. However you choose to use it, Cinnamon is meant to adapt to you, not the other way around. Due to its traditional workflow, it also has a minimal amount to learn about - you already know how to use it.
 
 ## nightshadeNix - GNOME
 
