@@ -11,7 +11,7 @@ Here are the main ones I use every single day, and they are setup to be easy to 
 
 ## nightshadeNix - GNOME
 
-![image](https://user-images.githubusercontent.com/35274771/219997226-98b5ec17-179f-47b6-afb4-7d31ca02ea43.png)
+![image](https://user-images.githubusercontent.com/35274771/220036173-6042c2c9-099e-4325-bd77-6484d74c7cd9.png)
 ###### A beautiful, comfortable, modern environment for every user.
 
 GNOME is quite extensible, despite plenty in the GNU/Linux community saying otherwise. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family in your `configuration.nix` file.
