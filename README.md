@@ -9,6 +9,15 @@ There are a few different environments I am building with the **nightshadeNix** 
 
 Here are the main ones I use every single day, and they are setup to be easy to switch between in the session manager.
 
+## nightshadeNix - Plasma
+
+![image](https://user-images.githubusercontent.com/35274771/220082036-421e9ad1-358e-4e41-9d5b-1bc970bb8575.png)
+###### A traditional and beautiful workflow that you already know how to use.
+
+Plasma has always been one of, if not my favorite, full desktop environment. It is beautiful, it is modern, it is feature-rich, and it gives you the power to make your desktop your own. 
+
+Theme it up to your heart's content with tons of bells and whistles and further aesthetic goodies, or leave it as-is and get to work. However you choose to use it, Plasma is meant to adapt to you, not the other way around. Due to its traditional workflow, it also has a minimal amount to learn about - you already know how to use it.
+
 ## nightshadeNix - GNOME
 
 ![image](https://user-images.githubusercontent.com/35274771/220036173-6042c2c9-099e-4325-bd77-6484d74c7cd9.png)
