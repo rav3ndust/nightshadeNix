@@ -172,6 +172,7 @@
       gnome.gnome-disk-utility
       ark
       transmission
+      mpv
       wireshark
     ];
   };
