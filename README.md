@@ -7,13 +7,14 @@ This repo ultimately will recreate my "__NightshadeNix__" setup on every machine
 
 ## The Setup
 
-There are a few different setups with the **nightshadeNix** configuration. 
+There are a few different environments I am building with the **nightshadeNix** configuration. 
 
-Here are the main ones I use every single day.
+Here are the main ones I use every single day, and they are setup to be easy to switch between in the session manager.
 
 ### nightshadeNix - GNOME
 
 ![image](https://user-images.githubusercontent.com/35274771/219997226-98b5ec17-179f-47b6-afb4-7d31ca02ea43.png)
+###### A beautiful, comfortable, modern environment for every user.
 
 GNOME is quite extensible, despite plenty in the GNU/Linux community saying otherwise. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family in your `configuration.nix` file.
 
