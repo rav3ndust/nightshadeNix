@@ -5,13 +5,11 @@ Also includes custom config files for other programs and some other scripts that
 
 This repo ultimately will recreate my "__NightshadeNix__" setup on every machine it's deployed to. It's mostly here, of course, for my use on my machines first and foremost, but I welcome anyone who has cool ideas to suggest them in an [issue](https://github.com/rav3ndust/nixConfig/issues) or [pull request](https://github.com/rav3ndust/nixConfig/pulls)!
 
-## The Setup
-
 There are a few different environments I am building with the **nightshadeNix** configuration. 
 
 Here are the main ones I use every single day, and they are setup to be easy to switch between in the session manager.
 
-### nightshadeNix - GNOME
+## nightshadeNix - GNOME
 
 ![image](https://user-images.githubusercontent.com/35274771/219997226-98b5ec17-179f-47b6-afb4-7d31ca02ea43.png)
 ###### A beautiful, comfortable, modern environment for every user.
