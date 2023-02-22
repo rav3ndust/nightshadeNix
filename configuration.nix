@@ -159,12 +159,26 @@
       markets
       sunvox
       alacritty
+      gnome.gnome-weather
       gnome.gnome-disk-utility
+      cinnamon.warpinator
       ark
       transmission
       wireshark
       rhythmbox
       xed-editor
+      # Games
+      openarena
+      minetest
+      gnome.aisleriot
+      gnome.tali
+      # retroarch/libretro cores:
+      retroarch
+      libretro.nestopia         # NES libretro core
+      libretro.bsnes            # SNES libretro core
+      libretro.mupen64plus      # N64 libretro core
+      libretro.dolphin          # GCN libretro core
+      libretro.mgba             # GBA libretro core
     ];
   };
 
