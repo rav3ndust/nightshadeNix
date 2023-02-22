@@ -210,6 +210,7 @@
      lua
      openssl
      fish
+     youtube-dl
      ###########################
      # GNOME extensions.
      # Leave commented out when not in use.
