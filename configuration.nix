@@ -100,6 +100,7 @@
       volumeicon
       polybar
       flameshot
+      pasystray
       xfce.thunar
       ];
   };
