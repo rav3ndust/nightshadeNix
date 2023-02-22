@@ -190,6 +190,7 @@
      firehol
      killall
      xorg.xkill
+     pulseaudio
      ###########################
      # GNOME extensions.
      # Leave commented out when not in use.
