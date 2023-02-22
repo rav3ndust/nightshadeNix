@@ -205,6 +205,11 @@
      killall
      xorg.xkill
      pulseaudio
+     curl
+     python
+     lua
+     openssl
+     fish
      ###########################
      # GNOME extensions.
      # Leave commented out when not in use.
