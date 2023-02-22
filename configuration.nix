@@ -1,7 +1,7 @@
-/* nightshadeNix config
-           - by rav3ndust
-  A customised setup with several different desktops: 
-        * cinnamon, GNOME, i3wm
+# nightshadeNix config
+#           - by rav3ndust
+#  A customised setup with several different desktops: 
+#        * cinnamon, GNOME, i3wm 
 #####################################################################
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
