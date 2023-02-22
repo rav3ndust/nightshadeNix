@@ -164,6 +164,7 @@
       transmission
       wireshark
       rhythmbox
+      xed-editor
     ];
   };
 
