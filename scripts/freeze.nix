@@ -14,7 +14,7 @@
 				git
 			];
 		};
-	}:
+	};
 	# create the freeze script.
 	shellScript = ''
 		# input for derivation information
