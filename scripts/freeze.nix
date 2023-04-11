@@ -21,7 +21,7 @@
 		# input for derivation information
 		# - - - 
 		repositoryName = readInput "Enter the name of the git repo: "
-		brachOrTag = readInput "Enter the branch or tag of the git repo: "
+		branchOrTag = readInput "Enter the branch or tag of the git repo: "
 		outputDirectory = readInput "Enter the directory you'd like to store the derivation in: "
 
 		# - - - 
