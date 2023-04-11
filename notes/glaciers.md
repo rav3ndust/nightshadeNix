@@ -8,13 +8,13 @@ Once you have created a glacier.nix file, you can create the snapshot by running
 
 `nixos-rebuild switch --label=<label>`
 
-Where "<label>" is the name of the Glacier.
+Where "*label*" is the name of the Glacier.
 
 To roll back to a previous Glacier, you need to run the following command:
 
 `nixos-rebuild switch --rollback=<label>`
 
-Where "<label>" is the name of the Glacier that you want to roll back to.
+Where "*label*" is the name of the Glacier that you want to roll back to.
 
 Here are some examples of how you can use Glaciers:
 
