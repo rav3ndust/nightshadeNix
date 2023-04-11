@@ -1,5 +1,5 @@
 # glacier
-#   generates new generations of nixOS.
+#   creates new generations of nixOS.
 #   written for the Nightshade project.
 {
   inputs = {
