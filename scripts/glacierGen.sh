@@ -11,7 +11,7 @@ label="$gen - $ns $tag - $(date -I)"
 notify () {
 	# sends notifications
 	local n1="GlacierGen"
-	local n2="New nightshadeNix generation created. Restart computer for changes to take effect."
+	local n2="New nightshadeNix generation created. Restart $HOSTNAME for changes to take effect."
 	notify-desktop "$n1" "$n2"
 }
 create_generation () {
@@ -23,7 +23,7 @@ create_generation () {
 	sleep 1
 	sudo $(NIXOS_LABEL="$label") nixos-rebuild switch
 	sleep 1
-	echo "New nightshadeNix generation created. You'll need to restart your machine for changes to take effect."
+	echo "New nightshadeNix generation created. You'll need to restart $HOSTNAME for changes to take effect."
 	sleep 1
 }
 main () {
