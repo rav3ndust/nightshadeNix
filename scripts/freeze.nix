@@ -14,7 +14,7 @@
 				git
 			];
 		};
-	};
+	}:
 	# create the freeze script.
 	shellScript = ''
 		# input for derivation information
@@ -30,9 +30,10 @@
 		# add files from the repo to the derivation
 		nix-store add-outputs --recursive "$outputDirectory"
 		# now we set the version of the derivation to match that of the git repo.
-		nix-set-version --output-name "outputDirectory" "$branchOrTag"
+		nix-set-version --output-name "$outputDirectory" "$branchOrTag"
 		# now we build the derivation
 		echo "Building the new derivation..." && sleep 1
 		nix-build "$outputDirectory"
 		'';
 }
+
