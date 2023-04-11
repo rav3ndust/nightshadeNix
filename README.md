@@ -1,5 +1,5 @@
 # nightshadeNix
-My personal configuration file for my nixOS instances.
+"Nightshade" configuration files and scripts for my nixOS instances.
 
 Also includes custom config files for other programs and some other scripts that I'm developing as I continue to further my obsession with Nix.
 
