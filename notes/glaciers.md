@@ -1,8 +1,8 @@
 # Glaciers
 
-**Glaciers** are system snapshots that are created using the glacier.nix file. They are a way to preserve the state of your system at a given point in time. Glaciers can be used to roll back to a previous state if something goes wrong, or to create a new system image from a previous snapshot.
+**Glaciers** are system snapshots that are created using the `glacier.nix` file. They are a way to preserve the state of your system at a given point in time. Glaciers can be used to roll back to a previous state if something goes wrong, or to create a new system image from a previous snapshot.
 
-To create a Glacier, you need to create a glacier.nix file. This file contains the information that is needed to create the snapshot, such as the name of the snapshot, the date and time of the snapshot, and the list of packages that are included in the snapshot.
+To create a Glacier, you need to create a `glacier.nix` file. This file contains the information that is needed to create the snapshot, such as the name of the snapshot, the date and time of the snapshot, and the list of packages that are included in the snapshot.
 
 Once you have created a glacier.nix file, you can create the snapshot by running the following command:
 
