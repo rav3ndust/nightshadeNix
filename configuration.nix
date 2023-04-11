@@ -174,6 +174,7 @@
       xed-editor
       # Games
       openarena
+      steam
       minetest
       gnome.aisleriot
       gnome.tali
@@ -224,6 +225,7 @@
      #gnomeExtensions.dash-to-panel
      #gnomeExtensions.burn-my-windows
      #gnomeExtensions.blur-my-shell
+     #gnomeExtensions.desktop-cube
      # include GNOME Tweak Tool.
      #gnome.gnome-tweaks
   ];
