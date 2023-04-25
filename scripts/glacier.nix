@@ -36,6 +36,6 @@
         echo "New Glacier created. Restart $HOSTNAME for changes to take effect." && sleep 1
 
         # display the notification
-        notify-desktop "$notificationTitle" "notificationDescription" 
+        notify-desktop "$notificationTitle" "$notificationDescription" 
         '';
 }
