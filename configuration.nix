@@ -226,6 +226,7 @@
      #gnomeExtensions.burn-my-windows
      #gnomeExtensions.blur-my-shell
      #gnomeExtensions.desktop-cube
+     #gnomeExtensions.tiling-assistant
      # include GNOME Tweak Tool.
      #gnome.gnome-tweaks
   ];
