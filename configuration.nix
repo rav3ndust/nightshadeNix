@@ -147,7 +147,7 @@
       chromium
       element-desktop
       brave
-      tdesktop
+      telegram-desktop
       sublime4
       sublime-merge
       flameshot
