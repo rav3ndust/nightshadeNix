@@ -65,8 +65,8 @@
   # Cinnamon and i3 can be selected from the login screen.
   # Uncomment the lines below to enable Cinnamon and lightdm.
   ##############################################################
-  #services.xserver.displayManager.lightdm.enable = true;
-  #services.xserver.desktopManager.cinnamon.enable = true;
+  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.desktopManager.cinnamon.enable = true;
   ##############################################################
   # Enable the GNOME Desktop Environment.
   # GNOME and i3 can be selected from the GDM login screen.
@@ -75,10 +75,7 @@
   #services.xserver.displayManager.gdm.enable = true;
   #services.xserver.desktopManager.gnome.enable = true;
   ##############################################################
-  # Enable the Pantheon Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.pantheon.enable = true;
-  ##############################################################
+  # * * * * * * * * * * * * * * * * * * * * 
   # Enable the i3 window manager.
   services.xserver.windowManager.i3 = {
     enable = true;
