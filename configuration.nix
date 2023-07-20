@@ -204,6 +204,7 @@
      htop
      neofetch
      cmatrix
+     firejail
      firehol
      killall
      xorg.xkill
@@ -213,7 +214,7 @@
      lua
      openssl
      fish
-     youtube-dl
+     yt-dlp
      ###########################
      # GNOME extensions.
      # Leave commented out when not in use.
