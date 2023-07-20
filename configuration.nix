@@ -91,8 +91,7 @@
       i3lock-fancy 
       rofi 
       dmenu 
-      nitrogen 
-      alacritty 
+      nitrogen  
       conky
       dunst 
       xscreensaver 
@@ -193,6 +192,7 @@
   # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   environment.systemPackages = with pkgs; [
      vim 
+     alacritty
      wget
      zip
      unzip
