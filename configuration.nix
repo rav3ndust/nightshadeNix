@@ -219,14 +219,14 @@
      # GNOME extensions.
      # Leave commented out when not in use.
      ###########################
-     #gnomeExtensions.dash-to-dock
-     #gnomeExtensions.dash-to-panel
-     #gnomeExtensions.burn-my-windows
-     #gnomeExtensions.blur-my-shell
-     #gnomeExtensions.desktop-cube
-     #gnomeExtensions.tiling-assistant
+     gnomeExtensions.dash-to-dock
+     gnomeExtensions.dash-to-panel
+     gnomeExtensions.burn-my-windows
+     gnomeExtensions.blur-my-shell
+     gnomeExtensions.desktop-cube
+     gnomeExtensions.tiling-assistant
      # include GNOME Tweak Tool.
-     #gnome.gnome-tweaks
+     gnome.gnome-tweaks
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
