@@ -151,6 +151,7 @@
       sublime4
       sublime-merge
       flameshot
+      hypnotix
       tor-browser-bundle-bin
       electrum
       gpa
