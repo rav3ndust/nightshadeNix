@@ -31,13 +31,13 @@ Conversely, you could also install them the `nix-env` way. For example, if you w
 
 **nightshadeNix** uses these GNOME extensions: 
 
-- AppIndicator: [gnomeExtensions.appindicator](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.appindicator)
-- Blur My Shell: [gnomeExtensions.blur-my-shell](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.blur-my-shell)
-- Burn My Windows: [gnomeExtensions.burn-my-windows](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.burn-my-windows)
-- Dash to Dock: [gnomeExtensions.dash-to-dock](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=dash-to-dock)
-- Desktop Cube: [gnomeExtensions.desktop-cube](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=desktop-cube)
-- Tiling Assistant: [gnomeExtensions.tiling-assistant](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=tiling-assistant)
-- Weather o'Clock: [gnomeExtensions.weather-oclock](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=weather-oclock)
+- AppIndicator: *For displaying background application icons in the systray. Applications such as Steam, Element, and Telegram make use of systray icons.* [gnomeExtensions.appindicator](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.appindicator)
+- Blur My Shell: *Provides a customisable blurring effect in your top bar and in the Activities Overview.* [gnomeExtensions.blur-my-shell](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.blur-my-shell)
+- Burn My Windows: *Fun aesthetic effects and animations when windows are opened and closed.* [gnomeExtensions.burn-my-windows](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.burn-my-windows)
+- Dash to Dock: *Brings your Dock in from the Activities Overview. You can set it to autohide when windows overlap with it, or even set it in panel mode.* [gnomeExtensions.dash-to-dock](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=dash-to-dock)
+- Desktop Cube: *Fun and useless 3D animations to bring back the good old days.* [gnomeExtensions.desktop-cube](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=desktop-cube)
+- Tiling Assistant: *Adds quarter-tiling to GNOME, and assists in snapping other windows into place.* [gnomeExtensions.tiling-assistant](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=tiling-assistant)
+- Weather o'Clock: *Adds the current temperature of a selected locale beside your clock in the topbar.* [gnomeExtensions.weather-oclock](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=weather-oclock)
   
 ## nightshadeNix - i3
 
