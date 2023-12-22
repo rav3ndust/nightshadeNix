@@ -102,7 +102,8 @@
       polybar
       flameshot
       pasystray
-      xfce.thunar
+      #xfce.thunar
+      cinnamon.nemo
       ];
   };
   
