@@ -97,6 +97,7 @@
       xscreensaver 
       arandr
       #nm-applet
+      blueman
       volumeicon
       polybar
       flameshot
