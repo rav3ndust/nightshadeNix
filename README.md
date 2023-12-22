@@ -32,11 +32,13 @@ Conversely, you could also install them the `nix-env` way. For example, if you w
 **nightshadeNix** uses these GNOME extensions: 
 
 - AppIndicator: [gnomeExtensions.appindicator](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.appindicator)
-- ArcMenu: [gnomeExtensions.arcmenu](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=arcmenu)
 - Blur My Shell: [gnomeExtensions.blur-my-shell](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.blur-my-shell)
 - Burn My Windows: [gnomeExtensions.burn-my-windows](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=gnomeExtensions.burn-my-windows)
 - Dash to Dock: [gnomeExtensions.dash-to-dock](https://search.nixos.org/packages?channel=22.11&from=0&size=50&sort=relevance&type=packages&query=dash-to-dock)
-
+- Desktop Cube: [gnomeExtensions.desktop-cube](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=desktop-cube)
+- Tiling Assistant: [gnomeExtensions.tiling-assistant](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=tiling-assistant)
+- Weather o'Clock: [gnomeExtensions.weather-oclock](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=weather-oclock)
+  
 ## nightshadeNix - i3
 
 ![image](https://user-images.githubusercontent.com/35274771/220030006-b0999e0c-ded6-4def-9ed1-489c1d04707c.png)
