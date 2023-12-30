@@ -20,7 +20,7 @@ Theme it up to your heart's content with tons of bells and whistles and further 
 
 ## nightshadeNix - GNOME
 
-![image](https://user-images.githubusercontent.com/35274771/220036173-6042c2c9-099e-4325-bd77-6484d74c7cd9.png)
+![image](https://github.com/rav3ndust/nightshadeNix/assets/35274771/54aae52b-5ebd-43c6-aa31-0c8260322336)
 ###### A beautiful, comfortable, modern environment for every user.
 
 GNOME is quite extensible, despite plenty in the GNU/Linux community saying otherwise. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family in your `configuration.nix` file.
