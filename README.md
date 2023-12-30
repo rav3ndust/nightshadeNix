@@ -23,7 +23,7 @@ Theme it up to your heart's content with tons of bells and whistles and further 
 ![image](https://github.com/rav3ndust/nightshadeNix/assets/35274771/e545f590-fe31-4093-9321-1de0689fca5c)
 ###### A beautiful, comfortable, modern environment for every user.
 
-GNOME is quite extensible, despite plenty in the GNU/Linux community saying otherwise. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family in your `configuration.nix` file.
+GNOME is quite extensible. It's simple on Nix-based systems, as well, since you can easily install extensions of your choice by including packages from the `nixos.gnomeExtensions` family in your `configuration.nix` file.
 
 Conversely, you could also install them the `nix-env` way. For example, if you wanted the *Burn My Windows* extension, you'd execute this command: 
 
